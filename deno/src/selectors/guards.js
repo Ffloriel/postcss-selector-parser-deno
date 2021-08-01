@@ -11,7 +11,7 @@ import {
   STRING,
   TAG,
   UNIVERSAL,
-} from "./types";
+} from "./types.js";
 
 const IS_TYPE = {
   [ATTRIBUTE]: true,
