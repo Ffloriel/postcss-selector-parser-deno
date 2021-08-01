@@ -1,0 +1,25 @@
+import Attribute from "./attribute.js";
+import ClassName from "./className.js";
+import Combinator from "./combinator.js";
+import Comment from "./comment.js";
+import Id from "./id.js";
+import Nesting from "./nesting.js";
+import Pseudo from "./pseudo.js";
+import Root from "./root.js";
+import Selector from "./selector.js";
+import Str from "./string.js";
+import Tag from "./tag.js";
+import Universal from "./universal.js";
+
+export const attribute = (opts) => new Attribute(opts);
+export const className = (opts) => new ClassName(opts);
+export const combinator = (opts) => new Combinator(opts);
+export const comment = (opts) => new Comment(opts);
+export const id = (opts) => new Id(opts);
+export const nesting = (opts) => new Nesting(opts);
+export const pseudo = (opts) => new Pseudo(opts);
+export const root = (opts) => new Root(opts);
+export const selector = (opts) => new Selector(opts);
+export const string = (opts) => new Str(opts);
+export const tag = (opts) => new Tag(opts);
+export const universal = (opts) => new Universal(opts);
